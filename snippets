@@ -1,0 +1,16 @@
+
+# iframe_list=find_elements(By.XPATH, '//iframe')
+
+
+for iframe_elem in iframe_list:
+	#print 'Iframe location : %d Iframe size: %d' % (iframe_elem.location, iframe_elem.size)
+	location = iframe_elem.location
+	size = iframe_elem.size
+	print(location)	
+	print(size)	
+
+# elem = driver.find_element_by_tag_name("iframe")
+# driver.find_element(By.XPATH, '//button[text()="Some text"]')
+# driver.find_elements(By.XPATH, '//button')
+# elem = driver.find_element_by_xpath("//iframe")
+# driver.switch_to_frame(driver.find_element_by_tag_name("iframe"))
